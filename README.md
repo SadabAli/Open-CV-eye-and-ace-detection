@@ -9,4 +9,4 @@ This project is designed for detecting eyes and faces using a camera. It include
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/eye_and_face_detection.git
+   [git clone https://github.com/yourusername/eye_and_face_detection.git](https://github.com/SadabAli/Open-CV-eye-and-ace-detection.git)
