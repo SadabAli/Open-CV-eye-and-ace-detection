@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye_And_Face_Detection</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #thim{
+            text-align: center;
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+                <h1 class="mt-5" id="thim">
+                    The camera is Active
+                </h1>
+                <img src="{{ url_for('live_detection') }}" alt="video error" width="42%">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
