@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #contentt {
+            text-align: center;
+            background-color: bisque;
+
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+                <h3 class="mt-5" id="contentt">The camera is Active</h3>
+                <img src="{{ url_for('video_feed') }}" width="50%">
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
